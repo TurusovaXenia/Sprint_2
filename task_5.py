@@ -1,4 +1,5 @@
 class Results:
+
     def __init__(self, victories, draws, losses):
         self.victories = victories
         self.draws = draws
@@ -6,6 +7,7 @@ class Results:
 
 
 class Football(Results):
+
     def number_of_wins(self):
         return f'Футбольных побед: {self.victories}'
 
@@ -21,6 +23,7 @@ class Football(Results):
 
 
 class Hockey(Results):
+
     def number_of_wins(self):
         return f'Хоккейных побед: {self.victories}'
 
